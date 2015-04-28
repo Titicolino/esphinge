@@ -40,6 +40,7 @@ public class TelaFases {
                         }
                     }else{//..ou para direita
                         podeDeslocar = Math.abs(background.getX()+ background.getWidth() + distanceX) <= background.getX() + background.getWidth();
+
                         Log.i("Validacao: ", String.valueOf(podeDeslocar));
                         Log.i("Largura da imagem: ", String.valueOf(background.getX() + background.getWidth()));
                         Log.i("X inicial: ", String.valueOf(Math.abs(background.getX())));
